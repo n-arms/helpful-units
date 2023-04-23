@@ -7,7 +7,6 @@ const UnitEntryField = ({
   unit,
   clearSimilarUnits
 }) => {
-  console.log("calling unit entry field with unit " + unit.toString());
   return (
     <input
       type="text"
